@@ -1,0 +1,139 @@
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     line-height: 1.6;
+     margin: 20px;
+     padding: 20px;
+     background-color: #f9f9f9;
+     color: #333;
+ }
+ 
+ .name-heading {
+     position: absolute;
+     right: 200px;
+ }
+ 
+ .header-box {
+     position: relative;
+     display: flex;
+     align-items: center;
+     margin-bottom: 20px;
+ }
+ 
+ .profile-pic {
+     width: 150.px;
+     height: 150px;
+     object-fit: cover;
+     border-radius: 50%;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .name-heading {
+     margin: 0;
+     font-size: 28px;
+     color: #004080;
+ }
+ 
+ h1 {
+     color: #004080;
+     /* border-bottom: 2px solid #ccc; */
+     padding-bottom: 5px;
+ }
+ 
+ img {
+     display: block;
+     margin: 20px auto;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ p {
+     background-color: #eef4fb;
+     padding: 15px;
+     border-left: 4px solid #004080;
+     border-radius: 5px;
+ }
+ 
+ hr {
+     border: none;
+     border-top: 1px solid #ccc;
+     margin: 30px 0;
+ }
+ 
+ ol,
+ ul {
+     padding-left: 20px;
+ }
+ 
+ a {
+     display: inline-block;
+     margin-right: 15px;
+     margin-top: 10px;
+     color: #004080;
+     text-decoration: none;
+ }
+ 
+ a:hover {
+     text-decoration: underline;
+ }
+ 
+ dl {
+     margin-left: 20px;
+ }
+ 
+ dt {
+     font-weight: bold;
+     margin-top: 15px;
+     color: #0055aa;
+ }
+ 
+ dd {
+     margin-left: 15px;
+     margin-bottom: 10px;
+ }
+ /* Certificates & Testimonials */
+ 
+ ul {
+     padding-left: 25px;
+ }
+ 
+ blockquote {
+     background-color: #eef4fb;
+     padding: 15px;
+     margin: 15px 0;
+     border-left: 4px solid #004080;
+     border-radius: 5px;
+     font-style: italic;
+     color: #333;
+ }
+ /* Download CV Button */
+ 
+ .download-btn {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #004080;
+     color: #fff;
+     border-radius: 5px;
+     text-decoration: none;
+     margin-top: 10px;
+ }
+ 
+ .download-btn:hover {
+     background-color: #002f5f;
+ }
+ /* Scroll-to-top Link */
+ 
+ .scroll-top {
+     display: inline-block;
+     margin-top: 30px;
+     text-decoration: none;
+     background-color: #004080;
+     color: white;
+     padding: 10px 14px;
+     /* border: #004080 solid 1px; */
+     border-radius: 5%;
+     font-size: 20px;
+ }
+ 
+ .scroll-top:hover {
+     background-color: #003060;
+ }
